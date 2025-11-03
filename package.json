@@ -1,0 +1,28 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "\"# CleanBlog\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamitokuyucular/CleanBlog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Hamit Okuyucular",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamitokuyucular/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/hamitokuyucular/CleanBlog#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
