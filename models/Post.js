@@ -3,6 +3,7 @@ const { Schema } = mongoose;
 
 // creat Schema
 const PostSchema = new Schema({
+  authorName: String,
   title: String,
   detail: String,
   dateCreated: {
