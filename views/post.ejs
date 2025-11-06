@@ -39,8 +39,8 @@
         </div>
 
         <div class="post-edit">
-          <a class="btn btn-primary">Update</a>
-          <a class="btn btn-danger">Delete</a>
+          <a href="/posts/edit_post/<%= post._id %>" class="btn btn-primary">Update</a>
+          <a href="/posts/<%= post._id %>?_method=Delete" onclick="return confirm('ARE YOU SURE?')" class="btn btn-danger">Delete</a>
         </div>
 
       </article>
